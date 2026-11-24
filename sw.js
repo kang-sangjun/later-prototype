@@ -1,6 +1,6 @@
 // Later 프로토타입: 홈 화면 앱으로 열 때 오프라인에서도 뜨게 하는 최소 캐시
 // 화면(index)은 항상 네트워크 먼저 받아 최신판을 보여 주고, 끊겼을 때만 저장본을 씁니다.
-const CACHE = 'later-v4'; // 배포할 때마다 숫자를 올린다
+const CACHE = 'later-v5'; // 배포할 때마다 숫자를 올린다
 const ASSETS = ['./', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
